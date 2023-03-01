@@ -1,0 +1,40 @@
+Setup VR on Unity
+-------------------
+
+# Window -> Package Manager -> install package name -> com.unity.xr.interaction.toolkit
+                                                then-> com.unity.xr.management
+
+# Project Settings -> select -> XR Plug in Management -> then initialize XR -> 
+						      -> computer -> select -> OpenXR -> then select OpenXR from menu -> add interaction profile -> Oculus Touch                   
+						      -> App -> select -> Oculus
+
+# Move the player
+-----------------
+- Locomotion System
+- Continous Move Provider
+- Character Controller
+- Character Controller Driver 
+
+# Turn the player
+-----------------
+- Continous Turn Provider
+-- OR --
+- Snap Turn Provider
+
+
+# Teleporation
+--------------
+- Teleporation Area on (ground) -> take -> list of Coliders
+
+- Teleporation Provdier on (player) -> take -> Locomotion System
+
+# Grab
+--------
+- XR Grab Interactable --> On gameObject -> take -> some events
+
+- XR Direct Interactor -> On Hand
+-- OR --
+- XR Ray Interactor -> On Hand
+
+
+
